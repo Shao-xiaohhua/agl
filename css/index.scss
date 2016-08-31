@@ -1,0 +1,25 @@
+@import "ku";
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+.da{
+    width: 500px;
+    height: 500px;
+    background: red;
+    margin: 0 auto;
+    .xiao{
+    width: 100%;
+    height: 100%;
+    background: orangered;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    }
+    .xiao.act{
+    opacity: 1;
+    }
+}

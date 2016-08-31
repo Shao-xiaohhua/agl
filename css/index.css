@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none; }
+
+@media screen and (max-width: 3000px) {
+  .col.l1 {
+    width: 8.33333%; } }
+
+@media screen and (max-width: 1068px) {
+  .col.m1 {
+    width: 8.33333%; } }
+
+@media screen and (max-width: 735px) {
+  .col.s1 {
+    width: 8.33333%; } }
+
+@media screen and (max-width: 3000px) {
+  .col.l2 {
+    width: 16.66667%; } }
+
+@media screen and (max-width: 1068px) {
+  .col.m2 {
+    width: 16.66667%; } }
+
+@media screen and (max-width: 735px) {
+  .col.s2 {
+    width: 16.66667%; } }
+
+@media screen and (max-width: 3000px) {
+  .col.l3 {
+    width: 25%; } }
+
+@media screen and (max-width: 1068px) {
+  .col.m3 {
+    width: 25%; } }
+
+@media screen and (max-width: 735px) {
+  .col.s3 {
+    width: 25%; } }
+
+@media screen and (max-width: 3000px) {
+  .col.l4 {
+    width: 33.33333%; } }
+
+@media screen and (max-width: 1068px) {
+  .col.m4 {
+    width: 33.33333%; } }
+
+@media screen and (max-width: 735px) {
+  .col.s4 {
+    width: 33.33333%; } }
+
+@media screen and (max-width: 3000px) {
+  .col.l5 {
+    width: 41.66667%; } }
+
+@media screen and (max-width: 1068px) {
+  .col.m5 {
+    width: 41.66667%; } }
+
+@media screen and (max-width: 735px) {
+  .col.s5 {
+    width: 41.66667%; } }
+
+@media screen and (max-width: 3000px) {
+  .col.l6 {
+    width: 50%; } }
+
+@media screen and (max-width: 1068px) {
+  .col.m6 {
+    width: 50%; } }
+
+@media screen and (max-width: 735px) {
+  .col.s6 {
+    width: 50%; } }
+
+@media screen and (max-width: 3000px) {
+  .col.l7 {
+    width: 58.33333%; } }
+
+@media screen and (max-width: 1068px) {
+  .col.m7 {
+    width: 58.33333%; } }
+
+@media screen and (max-width: 735px) {
+  .col.s7 {
+    width: 58.33333%; } }
+
+@media screen and (max-width: 3000px) {
+  .col.l8 {
+    width: 66.66667%; } }
+
+@media screen and (max-width: 1068px) {
+  .col.m8 {
+    width: 66.66667%; } }
+
+@media screen and (max-width: 735px) {
+  .col.s8 {
+    width: 66.66667%; } }
+
+@media screen and (max-width: 3000px) {
+  .col.l9 {
+    width: 75%; } }
+
+@media screen and (max-width: 1068px) {
+  .col.m9 {
+    width: 75%; } }
+
+@media screen and (max-width: 735px) {
+  .col.s9 {
+    width: 75%; } }
+
+@media screen and (max-width: 3000px) {
+  .col.l10 {
+    width: 83.33333%; } }
+
+@media screen and (max-width: 1068px) {
+  .col.m10 {
+    width: 83.33333%; } }
+
+@media screen and (max-width: 735px) {
+  .col.s10 {
+    width: 83.33333%; } }
+
+@media screen and (max-width: 3000px) {
+  .col.l11 {
+    width: 91.66667%; } }
+
+@media screen and (max-width: 1068px) {
+  .col.m11 {
+    width: 91.66667%; } }
+
+@media screen and (max-width: 735px) {
+  .col.s11 {
+    width: 91.66667%; } }
+
+@media screen and (max-width: 3000px) {
+  .col.l12 {
+    width: 100%; } }
+
+@media screen and (max-width: 1068px) {
+  .col.m12 {
+    width: 100%; } }
+
+@media screen and (max-width: 735px) {
+  .col.s12 {
+    width: 100%; } }
+
+@font-face {
+  font-family: "pingguo";
+  src: url(font/iconfont.woff) format("woff"); }
+
+@font-face {
+  font-family: "xi";
+  src: url(font/myriad-set-pro_extrathin.woff) format("woff"); }
+
+@font-face {
+  font-family: "fangdajing";
+  src: url(font/fangdajing.woff) format("woff"); }
+
+@font-face {
+  font-family: "cu";
+  src: url(font/myriad-set-pro_semibold.woff) format("woff"); }
+
+@font-face {
+  font-family: "zhengchang";
+  src: url(font/myriad-set-pro_text.woff) format("woff"); }
+
+@font-face {
+  font-family: "jixi";
+  src: url(font/myriad-set-pro_thin.woff) format("woff"); }
+
+.xi {
+  font-family: "xi"; }
+
+.cu {
+  font-family: "cu"; }
+
+.zhengchang {
+  font-family: "zhengchang"; }
+
+.jixi {
+  font-family: "jixi"; }
+
+.tubiao {
+  font-family: "pingguo";
+  font-style: normal; }
+
+.guoguo::before {
+  content: "\e6d6"; }
+
+.kongguoguo::before {
+  content: "\e60a"; }
+
+.row {
+  position: relative; }
+
+.row::after {
+  content: "";
+  clear: both;
+  display: none;
+  height: 0;
+  line-height: 0; }
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative; }
+
+.da {
+  width: 500px;
+  height: 500px;
+  background: red;
+  margin: 0 auto; }
+  .da .xiao {
+    width: 100%;
+    height: 100%;
+    background: orangered;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0; }
+  .da .xiao.act {
+    opacity: 1; }
